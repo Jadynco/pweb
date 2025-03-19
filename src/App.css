@@ -1,0 +1,303 @@
+* {
+  font-family: 'Courier New', monospace;
+  color: rgb(238, 222, 222);
+  margin: 0px;
+  padding: 0;
+ 
+}
+@media(min-width: 600px){
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('wave.png');
+  background-size: cover;
+  padding: 40px;
+}
+.logo h1{
+  font-size: 40px;
+  font-family: 'Brush Script MT', cursive;
+  letter-spacing: 3px;
+}
+
+.logo p{
+  font-size: 17px;
+  line-height: 0;
+  align-items: center;
+}
+body{
+  background-color: rgb(16, 16, 16);
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  color: rgb(238, 222, 222);
+  font-size: 20px;
+  padding-right:25px;
+}
+.navbar li:hover{
+  font-size: 25px;
+}
+.navbar a:hover{
+  color:rgb(187, 153, 153);
+}
+h1, h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.skills, .about{
+  margin: 0 auto;
+  font-size: 25px;
+  font-family: 'Courier New', monospace;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 250px;
+  max-width: 1000px;
+}
+.portfolio_text{
+  margin: 0 auto;
+  font-size: 25px;
+  font-family: 'Courier New', monospace;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 1000px;
+}
+
+
+
+.resume{
+  display:flex;
+  flex-direction: column;
+}
+
+.abmoretxt{
+font-size: 20px;
+text-align: center;
+padding-left: 10px;
+max-width: 500px;
+}
+}
+
+#greet{
+  font-size: 30px;
+  max-width: 750px;
+  height: 100px;
+  text-align:center;
+  padding:230px;
+  margin:0 auto;
+}
+
+.about button{
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+button {
+  background-color: rgb(238, 222, 222);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:rgb(187, 153, 153);
+}
+
+footer{
+  padding:20px;
+  color:rgb(16, 16, 16);
+  background-color:rgb(0, 0, 0);
+}
+
+.frame_container{
+  background-color:rgb(50, 50, 50);
+  padding:50px 50px 50px 50px;
+  border: none;
+  border-Radius:30px;
+  margin:50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 650px;
+  height:700px;
+}
+
+.frame_container p{
+  font-size: 25px;
+  text-align: center;
+  padding:10px;
+}
+
+.containerbox{
+flex-direction: row;
+align-items: center;
+justify-content: center;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+margin:10px;
+}
+
+.container {
+  max-width: 800px;
+  width: 90%;
+  margin: 185px auto;
+  padding: 20px;
+  background-color:rgb(50, 50, 50);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 6px outset rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"] {
+  width:90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color:black;
+  font-size: 20px;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+textarea {
+  font-size: 20px;
+  margin-bottom: 15px;
+  width:90%;
+  height: 150px;
+  color:black
+}
+
+.submit{
+  cursor: pointer;
+  width: 50%;
+}
+
+.abme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width:599){
+  header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-image: url('wave.png');
+      background-size: cover;
+      padding: 40px;
+  }
+  .logo h1{
+      font-size: 40px;
+      font-family: 'Brush Script MT', cursive;
+      letter-spacing: 3px;
+  }
+  
+  .logo p{
+      font-size: 17px;
+      line-height: 0;
+      align-items: center;
+  }
+
+  .navbar ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      align-items: center;
+  
+  }
+  
+  .navbar a{
+      text-decoration: none;
+      color: rgb(238, 222, 222);
+      font-size: 20px;
+      padding-right:25px;
+  }
+  .navbar li:hover{
+      font-size: 25px;
+  }
+  .navbar a:hover{
+      color:rgb(187, 153, 153);
+  }
+  h1, h2 {
+      text-align: center;
+      margin: 20px 0;
+  }
+  
+  .skills, .portfolio, .about{
+      margin: 0 auto;
+      font-size: 25px;
+      font-family: 'Courier New', monospace;
+      line-height: 1.5;
+      text-align: center;
+      padding: 200px;
+      max-width: 1000px;
+  }
+  .about{
+      padding-top: 300px;
+  }
+  .about h1{
+      font-size: 50px;
+  }
+  
+  .about button{
+      margin-top: 20px;
+      font-size: 18px;
+
+  }
+  
+  button {
+      background-color: rgb(238, 222, 222);
+      color: rgb(0, 0, 0);
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color:rgb(187, 153, 153);
+  }
+  
+  .resume{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin:250px;
+  }
+
+.abmoretxt{
+  font-size: 11px;
+}
+
+  footer{
+      padding:20px;
+      color:rgb(16, 16, 16);
+      background-color:rgb(238, 222, 222);
+  }
+
+}
