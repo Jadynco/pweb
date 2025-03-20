@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Link } from "react-router-dom";
 import './App.css';
 import Home from "./home"
 import AboutMore from './aboutmore'

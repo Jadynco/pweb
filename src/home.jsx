@@ -121,6 +121,7 @@ export default function Greetings() {
   <div className="frame_container">
  
   <iframe
+  title="pomo"
     src="https://jadynco.github.io/pomo/"
     style={{
        width: "600px",
@@ -137,6 +138,7 @@ export default function Greetings() {
 
  <div className="frame_container">
   <iframe
+  title="mathgame"
     src="https://gist.github.com/Jadynco/0c0381d2b10f259c573b76364e0879a0.pibb"
     style={{
       width: "600px",
@@ -152,6 +154,7 @@ export default function Greetings() {
   </div>
   <div className="frame_container">
   <iframe
+  title="kenyattspeakz"
     src="http://kenyattaspeakz.com"
     style={{
       width: "600px",
@@ -167,6 +170,7 @@ export default function Greetings() {
   </div>
   <div className="frame_container">
   <iframe
+  title="employeemanager"
     src="https://gist.github.com/Jadynco/7ecf6c7334ebb9766a6d97fa2b9d3322.pibb"
     style={{
       width: "600px",
