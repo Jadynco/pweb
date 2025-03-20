@@ -155,7 +155,7 @@ export default function Greetings() {
   <div className="frame_container">
   <iframe
   title="kenyattspeakz"
-    src="http://kenyattaspeakz.com"
+    src="https://jadynco.github.io/ksclone/"
     style={{
       width: "600px",
       height:"500px"
@@ -166,7 +166,7 @@ export default function Greetings() {
    a customizable Pomodoro timer, a stopwatch, and a reset option. Designed 
    for productivity, it helps you manage tasks effectively by combining time
     tracking and focused work intervals.</p>
-   < a href="kenyattaspeakz.com"><button>View full website</button></a>
+   < a href="https://jadynco.github.io/ksclone/"><button>View full website</button></a>
   </div>
   <div className="frame_container">
   <iframe
