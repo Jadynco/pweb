@@ -162,10 +162,8 @@ export default function Greetings() {
     }}
   >
   </iframe>
-  <p>The Pomodoro App, built with ReactJS, features three core functions:
-   a customizable Pomodoro timer, a stopwatch, and a reset option. Designed 
-   for productivity, it helps you manage tasks effectively by combining time
-    tracking and focused work intervals.</p>
+  <p>Kenyatta Speaks is a freelance website I built for a client using ReactJS,
+    showcasing engaging content, photo gallery and contact form. </p>
    < a href="https://jadynco.github.io/ksclone/"><button>View full website</button></a>
   </div>
   <div className="frame_container">
@@ -178,10 +176,12 @@ export default function Greetings() {
     }}
   >
   </iframe>
-  <p>This Java project manages employee records using a linked list. 
-    It allows adding, searching, deleting employees, printing all records, 
-    and finding the highest net salary. Each employee's details, including 
-    ID, name, and net salary, are displayed clearly.</p>
+  <p> This Java project manages employee 
+    records using a linked list. It allows adding, 
+    searching, deleting employees, printing all records, 
+    and finding the highest net salary. Each employee's
+     details, including ID, name, and net salary, are
+      displayed clearly.</p>
    < a href="https://onlinegdb.com/8ZWLWRg7k"><button>Run Code</button></a>
   </div>
 </div>
