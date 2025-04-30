@@ -1,21 +1,18 @@
 import logo from './logo.svg';
-import { HashRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Link, HashRouter } from "react-router-dom";
 import './App.css';
-import Home from "./home"
-import AboutMore from './aboutmore'
+import Home from './home';
+import AboutMore from './aboutmore';
 
 function App() {
-   
-   return(
-   <Router>
+  return (
+    <HashRouter>
     <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/more" element={<AboutMore />} />
-
-        
+      <Route path="" element={<Home />}/>
+      <Route path="/AboutMore" element={<AboutMore/>}/>
     </Routes>
-    </Router>
-   )
+    </HashRouter>
+  );
 }
 
 export default App;

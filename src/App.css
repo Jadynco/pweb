@@ -5,8 +5,10 @@
   padding: 0;
  
 }
-@media(min-width: 600px){
+
 header{
+  position:sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,13 +16,17 @@ header{
   background-size: cover;
   padding: 40px;
 }
-.logo h1{
+.logo h1 {
   font-size: 40px;
   font-family: 'Brush Script MT', cursive;
   letter-spacing: 3px;
 }
 
-.logo p{
+.logo a{
+  text-decoration: none;
+}
+
+.p{
   font-size: 17px;
   line-height: 0;
   align-items: center;
@@ -28,6 +34,7 @@ header{
 body{
   background-color: rgb(16, 16, 16);
 }
+
 
 .navbar ul {
   display: flex;
@@ -73,7 +80,6 @@ h1, h2 {
 }
 
 
-
 .resume{
   display:flex;
   flex-direction: column;
@@ -85,7 +91,18 @@ text-align: center;
 padding-left: 10px;
 max-width: 500px;
 }
-}
+
+.containerbox{
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  max-width: 1000px;
+
+  }
+  
+
 
 #greet{
   font-size: 30px;
@@ -136,16 +153,9 @@ footer{
   font-size: 25px;
   text-align: center;
   padding:10px;
+
 }
 
-.containerbox{
-flex-direction: row;
-align-items: center;
-justify-content: center;
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-margin:10px;
-}
 
 .container {
   max-width: 800px;
@@ -200,104 +210,4 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-@media(max-width:599){
-  header{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-image: url('wave.png');
-      background-size: cover;
-      padding: 40px;
-  }
-  .logo h1{
-      font-size: 40px;
-      font-family: 'Brush Script MT', cursive;
-      letter-spacing: 3px;
-  }
-  
-  .logo p{
-      font-size: 17px;
-      line-height: 0;
-      align-items: center;
-  }
-
-  .navbar ul {
-      display: flex;
-      list-style-type: none;
-      padding: 0;
-      align-items: center;
-  
-  }
-  
-  .navbar a{
-      text-decoration: none;
-      color: rgb(238, 222, 222);
-      font-size: 20px;
-      padding-right:25px;
-  }
-  .navbar li:hover{
-      font-size: 25px;
-  }
-  .navbar a:hover{
-      color:rgb(187, 153, 153);
-  }
-  h1, h2 {
-      text-align: center;
-      margin: 20px 0;
-  }
-  
-  .skills, .portfolio, .about{
-      margin: 0 auto;
-      font-size: 25px;
-      font-family: 'Courier New', monospace;
-      line-height: 1.5;
-      text-align: center;
-      padding: 200px;
-      max-width: 1000px;
-  }
-  .about{
-      padding-top: 300px;
-  }
-  .about h1{
-      font-size: 50px;
-  }
-  
-  .about button{
-      margin-top: 20px;
-      font-size: 18px;
-
-  }
-  
-  button {
-      background-color: rgb(238, 222, 222);
-      color: rgb(0, 0, 0);
-      border: none;
-      padding: 10px 20px;
-      cursor: pointer;
-  }
-  
-  button:hover {
-      background-color:rgb(187, 153, 153);
-  }
-  
-  .resume{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    margin:250px;
-  }
-
-.abmoretxt{
-  font-size: 11px;
-}
-
-  footer{
-      padding:20px;
-      color:rgb(16, 16, 16);
-      background-color:rgb(238, 222, 222);
-  }
-
 }

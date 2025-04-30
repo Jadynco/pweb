@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
-
+import './index.css';
+import { HashLink } from 'react-router-hash-link';
 
 
 export default function Greetings() {
@@ -40,24 +41,22 @@ export default function Greetings() {
     <div>
       <header>
         <div className="logo">
-          <h1>Jadyn Coleman</h1>
+          <HashLink smooth to='#greet'><h1>Jadyn Coleman</h1></HashLink>
           <p>Software Developer</p>
         </div>
         <nav className="navbar">
           <ul>
             <li>
-              <a href="#about">About</a>
+              <HashLink smooth to='#about'>About</HashLink>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <HashLink smooth to="#skills">Skills</HashLink>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <HashLink smooth to="#portfolio">Portfolio</HashLink>
             </li>
             <li>
-              <a href="#contact">
-                <button>Contact</button>
-              </a>
+            <HashLink smooth to='#contact'><button>contact</button></HashLink>
             </li>
           </ul>
         </nav>
@@ -82,7 +81,7 @@ export default function Greetings() {
           and has since evolved into an unstoppable drive to innovate and solve
           complex problems.
         </p>
-        <Link to="/more"><button>More</button></Link>
+        <Link to="/AboutMore"><button>More</button></Link>
           
         
       </div>
