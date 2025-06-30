@@ -91,7 +91,7 @@ export default function Greetings() {
         <p>
         {" "}<strong>
             <span style={{ color: "rgb(188, 109, 109)" }}>Programming Languages:</span>
-        </strong>{" "}: Python, Java, JavaScript<br/><br/>
+        </strong>{" "}: C, Python, Java, JavaScript<br/><br/>
         {" "}<strong>
             <span style={{ color: "rgb(188, 109, 109)" }}>Web Development:</span>
         </strong>{" "}: HTML, CSS, ReactJS, Django<br/><br/>
@@ -119,60 +119,42 @@ export default function Greetings() {
   <div className="containerbox">
   <div className="frame_container">
  
-  <iframe
+  <iframe className="iframe"
   title="pomo"
-    src="https://jadynco.github.io/pomo/"
-    style={{
-       width: "600px",
-      height:"500px"
-    }}
+    src="https://pomodoro-iota-gold.vercel.app/#/pomodoro"
   >
   </iframe>
   <p>The Pomodoro App, built with ReactJS, features three core functions:
    a customizable Pomodoro timer, a stopwatch, and a reset option. Designed 
    for productivity, it helps you manage tasks effectively by combining time
     tracking and focused work intervals.</p>
-   < a href="https://jadynco.github.io/pomo"><button>View full website</button></a>
+   < a href="https://pomodoro-iota-gold.vercel.app/#/pomodoro"><button>View full website</button></a>
   </div>
 
  <div className="frame_container">
-  <iframe
+  <iframe className="iframe"
   title="mathgame"
-    src="https://gist.github.com/Jadynco/0c0381d2b10f259c573b76364e0879a0.pibb"
-    style={{
-      width: "600px",
-      height:"500px"
-    }}
+    src="https://ai-study-tool-theta.vercel.app/#/Flashcard"
   >
   </iframe>
-  <p>This Math Game, built in C, includes three interactive modes: Addition, Multiplication,
-     and a timed Number Guessing Game. Each mode calculates your score based on accuracy and
-     speed, offering a fun way to test your skills. Click "Run Code," press "Run," to play.
+  <p>AI-powered study tool that lets users upload PDFs, Docx, or text files to automatically generate quizzes, flashcards, and study sheets.
 </p>
-   < a href="https://onlinegdb.com/pXRt8aBsP"><button>Run Code</button></a>
+   < a href="https://ai-study-tool-theta.vercel.app/#/Flashcard"><button>Run Code</button></a>
   </div>
   <div className="frame_container">
-  <iframe
+  <iframe className="iframe"
   title="kenyattspeakz"
-    src="https://jadynco.github.io/ksclone/"
-    style={{
-      width: "600px",
-      height:"500px"
-    }}
+    src="https://kenyattaspeaks.vercel.app/"
   >
   </iframe>
   <p>Kenyatta Speaks is a freelance website I built for a client using ReactJS,
     showcasing engaging content, photo gallery and contact form. </p>
-   < a href="https://jadynco.github.io/ksclone/"><button>View full website</button></a>
+   < a href="https://kenyattaspeaks.vercel.app/"><button>View full website</button></a>
   </div>
   <div className="frame_container">
-  <iframe
+  <iframe className="iframe"
   title="employeemanager"
     src="https://gist.github.com/Jadynco/7ecf6c7334ebb9766a6d97fa2b9d3322.pibb"
-    style={{
-      width: "600px",
-      height:"500px"
-    }}
   >
   </iframe>
   <p> This Java project manages employee 

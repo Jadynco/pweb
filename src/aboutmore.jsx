@@ -23,14 +23,8 @@ export default function AboutMore() {
         <div className="abme">
       
       <div className="resume">
-        Resume PDF
-        <img src="JColemanResume.png" alt="resume" 
-          style={{
-            height:"800px",
-            width:"auto",
-            padding:"3px",
-          }}
-        />
+        <h1>Resume</h1>
+        <img src="JColemanResume.png" alt="resume" />
       </div>
       <div className="abmoretxt">
         
